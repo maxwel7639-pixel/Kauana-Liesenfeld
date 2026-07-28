@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kauana Liesenfeld">
+  <title>Kauana Liesenfeld</title>
+  <defs>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3C48D"/>
+      <stop offset="1" stop-color="#A9722F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#2F3423"/>
+  <rect x="3.5" y="3.5" width="57" height="57" rx="11" fill="none" stroke="#C9A063" stroke-opacity=".38"/>
+  <path d="M22 17V47M22 32.5L44.5 17M22 32.5L44.5 47"
+        fill="none" stroke="url(#ouro)" stroke-width="5.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

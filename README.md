@@ -16,6 +16,8 @@ para HTML estático pronto para deploy.
 | `support.js`, `image-slot.js` | Runtime do Claude Design. Usados só pelo `.dc.html`, não pelo `index.html`. |
 | `.image-slots.state.json` | Enquadramento e conteúdo dos `<image-slot>` do editor. |
 | `assets/` | Fotos, prints das avaliações do Google e imagens dos slots. |
+| `favicon.svg` | Monograma "K" dourado sobre o verde da marca. Fonte dos ícones. |
+| `favicon-32.png`, `apple-touch-icon.png` | Fallbacks rasterizados a partir do `favicon.svg`. |
 
 ## Rebuild
 
@@ -53,3 +55,7 @@ o `build.py`.
 correspondente. Para os quatro cards que usam `<image-slot>` (terapêutica, drenagem,
 depilação, limpeza de pele), o mapeamento imagem → enquadramento está em `SLOT_IMG`,
 no `build.py`.
+
+**Regerar os ícones:** editar o `favicon.svg` e rasterizar os PNGs a partir dele
+(32×32 e 180×180). O `apple-touch-icon.png` vai sem cantos arredondados — o iOS
+aplica a própria máscara.
